@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #eee;
-    background-image: linear-gradient(#180e4fff,#10307bef);
+    background: rgb(24, 14, 79);
 }
 
  header {
@@ -34,7 +34,7 @@ body {
 
     box-shadow: 0px 17px 8px -5px #0000001a;
     background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
 }
 
 footer {
@@ -97,7 +97,8 @@ footer p {
 /* Body properties */
 
 #home {
-    padding: 10%;
+    margin-left: 10%;
+    padding-left: 10%;
 }
 
 #about {
